@@ -8,6 +8,7 @@ import '@mdi/font/css/materialdesignicons.css'
 import App from './App.vue'
 import { createPinia } from 'pinia'
 import router from './router/index.js'
+import Navbar from './components/Navbar.vue'
 const app = createApp(App);
 const vuetify = createVuetify({
     components,
@@ -20,5 +21,6 @@ app.use(vuetify);
 app.use(router);
 const pinia = createPinia();
 app.use(pinia);
+app.component('Navbar', Navbar);
 app.mount('#app')
 
