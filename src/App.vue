@@ -1,10 +1,8 @@
 <script>
 import Navbar from './components/Navbar.vue';
-import HomePage from './views/HomePage.vue';
+// import HomePage from './views/HomePage.vue';
 export default {
-  components: {
-    HomePage
-  },
+ 
   setup() {
     return {};
   },
@@ -14,8 +12,8 @@ export default {
 <template>
   <div>
     <Navbar />
-    <HomePage />
-    <h1>Hello World</h1>
+    <!-- <HomePage />
+    <h1>Hello World</h1> -->
   </div>
 </template>
 
